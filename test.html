@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Webinar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .main-bg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: rgba(255, 255, 255, 1);
+            background-image: url(images/bg.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-style: none;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1px;
+            border-radius: 0px;
+            width: 100%;
+            height: 711px;
+            position: relative;
+        }
+
+        /* Apply transparency to both sections */
+        .transparent-section {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with 0.8 opacity */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .about-us {
+            background-color: rgba(128, 128, 128, 0.8); /* Gray background with 0.8 opacity */
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="bg-gray-200">
+        <div class="flex justify-between px-10 w-3/4 mx-auto">
+            <img src="/images/logo.png" style="width: 20%;" class="py-2" alt="">
+            <h1 class="my-auto text-black font-bold text-2xl">Tag Line</h1>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="main-bg">
+        <section class="transparent-section w-3/4 mx-auto">
+            <div>
+                <p class="text-4xl font-semibold text-center pt-16">
+                    How To Get Started With This Webinar
+                </p>
+                <p class="text-center pt-6 text-xl" style="color: #6C6759;">
+                    The webinar is over! Get an email when the recording is available
+                </p>
+            </div>
+            <div class="flex flex-row pt-10 mb-10">
+                <div class="w-1/2 px-14">
+                    <p class="text-xl text-blue-400">About The Webinar</p>
+                    <p class="pt-3">Vestibulum eget tincidunt libero. Curabitur aliquet egestas leo. Donec vel mauris
+                        nibh. Aliquam volutpat placerat eros, at egestas risus ullamcorper vel. Quisque malesuada diam ac augue
+                        euismod, sed tempor ligula placerat.</p><br>
+                    <p>Above all, we'll explain how to <span class="font-semibold">fix those mistakes and increase
+                            conversions.</span></p><br>
+                    <p>Think you might be guilty of screwing up any of the following?
+                        <span class="font-semibold">Watch the webinar</span> to find out how to redeem yourself.
+                    </p><br>
+                    <ul class="list-disc pl-7">
+                        <li>You’re using cheesy stock photos</li>
+                        <li>You have no clear value proposition</li>
+                        <li>You lack credibility</li>
+                        <li>You don’t follow the customer thought sequence</li>
+                        <li>Plus 6 more mistakes you may not have considered</li>
+                    </ul><br>
+                    <p>Duration:<span class="font-semibold"> 1 hour</span></p>
+                    <p>Awesome:<span class="font-semibold"> Naturally</span></p>
+                </div>
+                <div class="w-1/2">
+                    <div class="border border-blue-400 border-2 rounded-xl mx-24 mt-10 bg-gray-100">
+                        <form action="" class="mx-10">
+
+                            <p class="text-2xl pt-10 font-semibold">Watch the Webinar</p><br>
+                            <label for="first-name" class="font-semibold">First Name</label><br>
+                            <input type="text" name="first-name" id="" required
+                                class="w-full h-9 border border-gray rounded-md"><br><br>
+
+                            <label for="last-name" class="font-semibold">Last Name</label><br>
+                            <input type="text" name="last-name" id="" required
+                                class="w-full h-9 border border-gray rounded-md"><br><br>
+
+                            <label for="email" class="font-semibold">Email</label><br>
+                            <input type="email" name="email" id="" required
+                                class="w-full h-9 border border-gray rounded-md"><br><br>
+                            <div class="flex justify-center">
+                                <button
+                                    class="w-full bg-[#9acc44;] text-slate-50 px-10 py-3 font-semibold hover:bg-[#648E1D]">
+                                    EMAIL ME THE RECORDING</button>
+                            </div>
+                            <br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section class="about-us w-3/4 mx-auto mt-10">
+            <div>
+                <p class="text-slate-50 text-center text-3xl font-semibold pb-48">
+                    About the Hosts
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

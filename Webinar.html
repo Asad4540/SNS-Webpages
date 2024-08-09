@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Webinar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .main-bg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: rgba(255, 255, 255, 1);
+            background-image: url(images/bg.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-style: none;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1px;
+            border-radius: 0px;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        /* Opacity for the "About the Hosts" section */
+        .about-us {
+            opacity: 0.9;
+            /* 50% opacity */
+        }
+
+        .btn {
+            background: rgba(136, 185, 65, 1);
+            display: block;
+            border-style: none;
+            border-radius: 2px;
+            /* left: 0px;
+            top: -5px;
+            z-index: 34;
+            width: 303px;
+            height: 50px;
+            position: absolute;
+            box-shadow: none;
+            text-shadow: none;
+            color: #fff;
+            border-width: undefinedpx;
+            border-color: #undefined;
+            font-size: 15px;
+            line-height: 18px;
+            font-weight: normal;
+            font-family: Lato;
+            font-style: normal;
+            text-align: center;
+            background-repeat: no-repeat; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="bg-gray-200 ">
+        <div class="flex justify-between px-10 w-3/4 mx-auto">
+            <img src="/images/logo.png" style="width: 20%;" class="py-2" alt="">
+            <h1 class="my-auto text-black font-bold text-2xl">TAGLINE</h1>
+        </div>
+    </div>
+    <!-- Hero   -->
+    <div class="main-bg">
+        <section class="w-3/4 mx-auto">
+            <div>
+                <p class="text-4xl font-semibold text-center pt-16">
+                    How To Get Started With This Webinar
+                </p>
+                <p class="text-center pt-6 text-xl" style="color: #6C6759;">
+                    The webinar is over! Get an email when the recording is available
+                </p>
+            </div>
+            <div class="flex flex-row pt-10 mb-10">
+                <div class=" w-1/2 px-14">
+                    <p class="text-xl text-blue-400">About The Webinar
+                    </p>
+                    <p class="pt-3">Vestibulum eget tincidunt libero. Curabitur aliquet egestas leo. Donec vel mauris
+                        nibh. Aliquam
+                        volutpat placerat eros, at egestas risus ullamcorper vel. Quisque malesuada diam ac augue
+                        euismod, sed tempor ligula placerat.</p><br>
+                    <p>Above all, we'll explain how to <span class="font-semibold">fix those mistakes and increase
+                            conversions.</span></p><br>
+                    <p>Think you might be guilty of screwing up any of the following?
+                        <span class="font-semibold">Watch the webinar</span> to find out how to redeem yourself.
+                    </p><br>
+                    <ul class="list-disc pl-7">
+                        <li>You’re using cheesy stock photos
+                        </li>
+                        <li>You have no clear value proposition
+                        </li>
+                        <li>You lack credibility
+                        </li>
+                        <li>You don’t follow the customer thought sequence
+                        </li>
+                        <li>Plus 6 more mistakes you may not have considered
+                        </li>
+                    </ul><br>
+                    <p>Duration:<span class="font-semibold"> 1 hour</span>
+                    </p>
+                    <p>Awesome:<span class="font-semibold"> Naturally</span>
+                    </p>
+                </div>
+                <div class="w-1/2">
+                    <div class="border border-blue-400 border-2 rounded-xl mx-24 mt-10 bg-gray-100">
+                        <form action="" class="mx-10">
+
+                            <p class="text-2xl pt-10 font-semibold">Watch the Webinar</p><br>
+                            <label for="first-name" class="font-semibold">First Name</label><br>
+                            <input type="text" name="first-name" id="" required
+                                class="w-full h-9 border border-gray rounded-md"><br><br>
+
+                            <label for="last-name" class="font-semibold">Last Name</label><br>
+                            <input type="text" name="last-name" id="" required
+                                class="w-full h-9 border border-gray rounded-md"><br><br>
+
+                            <label for="email" class="font-semibold">Email</label><br>
+                            <input type="email" name="email" id="" required
+                                class="w-full h-9 border border-gray rounded-md"><br><br>
+                            <div class="flex justify-center">
+                                <button
+                                    class="w-full bg-[#9acc44;] text-slate-50 px-10 py-3 font-semibold hover:bg-[#648E1D] ">
+                                    EMAIL ME THE RECORDING</button>
+                            </div>
+                            <br><br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us  -->
+        <section class="bg-gray-900 about-us">
+            <div class="w-3/4 mx-auto mb-20">
+                <p class="text-slate-50 text-center text-3xl font-semibold pt-12">
+                    About the Hosts
+                </p>
+                <div class="flex mt-10 gap-10">
+                    <div>
+                        <div class="flex gap-10">
+                            <div class="text-right text-slate-50">
+                                <p class="font-bold text-[18px]">Jane Smith</p>
+                                <p class="text-[#8E8976]">@jane_smith</p><br>
+                                <div class="pl-48">
+                                    <p class="text-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                                        rhoncus volutpat lacus
+                                        vel elementum. Sed quis nibh nisl. Nam mauris nisl, pharetra id ultrices sed,
+                                        viverra in purus.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="images/Spk1.png" alt=""
+                                    class="w-[500px] rounded-[50%] border border-slate-50 border-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex gap-10">
+                            <div>
+                                <img src="images/Spk2.jpg" alt=""
+                                    class="w-[500px] rounded-[50%] border border-slate-50 border-2">
+                            </div>
+                            <div class="text-slate-50">
+                                <p class="font-bold text-[18px]">John Smith</p>
+                                <p class="text-[#8E8976]">@johnsmith</p><br>
+                                <div class="pr-48">
+                                    <p class="text-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                                        rhoncus volutpat lacus vel elementum. Sed quis nibh nisl. Nam mauris nisl,
+                                        pharetra id ultrices sed, viverra in purus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="bg-gray-100 pb-15">
+            <div class="w-3/4 mx-auto">
+                <div>
+                    <p class="text-center text-3xl text-[#8E8976] pt-10">What People said about Previous Webinars</p>
+                </div>
+                <div class="pt-10 pb-20 flex gap-10 mx-10 text-center">
+                    <div class="w-1/3 flex flex-col justify-center items-center text-[#8E8976]">
+                        <img src="images/spk3.jpg" alt=""
+                            class="w-[50px] rounded-[50%] border border-blue-400 border-2 mb-3">
+                        <p class="mb-3">@JaneSmith</p>
+                        <p>Most useful webinar I think I have ever attended. Thank you!</p>
+                        <p>@yourcompany</p>
+                    </div>
+                    <div class="w-1/3 flex flex-col justify-center items-center text-[#8E8976]">
+                        <img src="images/spk4.jpg" alt=""
+                            class="w-[50px] rounded-[50%] border border-blue-400 border-2 mb-3">
+                        <p class="mb-3">@John_doe</p>
+                        <p>@yourcompany Great webinar today. Very informative with lots of good </p>
+                        <p>takeaways.</p>
+                    </div>
+                    <div class="w-1/3 flex flex-col justify-center items-center text-[#8E8976]">
+                        <img src="images/spk5.jpg" alt=""
+                            class="w-[50px] rounded-[50%] border border-blue-400 border-2 mb-3">
+                        <p class="mb-3">@howto_fan</p>
+                        <p>Love @yourcompany webinars. Well done with useful info and opportunities to ask
+                            questions.Very impressed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#05AAE1] pb-10">
+            <div class="w-3/4 mx-auto -mt-[20px]">
+                <center>
+                    <button class="w-1/4 bg-[#9acc44;] text-slate-50 px-10 py-3 font-semibold hover:bg-[#648E1D]">
+                        EMAIL ME THE RECORDING</button>
+                </center><br>
+               <hr><br>
+               <div class="flex justify-between items-center">
+                <img src="images/logo.png" style="width: 15%;" alt="">
+                <p>Copyright ©SNS-Insider 2024</p>
+               </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
